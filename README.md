@@ -17,7 +17,7 @@
 
 ## Self-Grading Process
 
-각각의 prompt 를 완료한 후, `README.md` 파일을 수정해서 grade 를 작성하시면 됩니다. 위의 Grading Outline 섹션의 [ ] 에 grade 를 스스로 매기시길 바랍니다. ([Grading Scale](https://github.com/codestates/2017-03-self-assessments-precourse-02/blob/master/Assessments.md) 를 참고)
+각각의 prompt 를 완료한 후, `README.md` 파일을 수정해서 grade 를 작성하시면 됩니다. 위의 Grading Outline 섹션의 [ ] 에 grade 를 스스로 매기시길 바랍니다. ([Grading Scale](/Assessments.md) 를 참고)
 
 ## Javascript Syntax Check
 
