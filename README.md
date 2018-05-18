@@ -14,6 +14,7 @@
 - [ ] underbar-memoize
 - [ ] underbar-extend
 - [ ] sumConsecutives
+- [ ] isAgeDiverse
 
 ## Self-Grading Process
 
