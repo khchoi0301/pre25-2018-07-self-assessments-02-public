@@ -2,9 +2,10 @@ var _ = {};
 
 (function() {
 
-  var newArr=[]
+  
   // Return the results of applying an iterator to each element.
   _.map = function(collection, iterator) {
+    var newArr=[]
     for(var i=0;i<collection.length;i++){
       newArr.push(iterator(collection[i]))
     }
