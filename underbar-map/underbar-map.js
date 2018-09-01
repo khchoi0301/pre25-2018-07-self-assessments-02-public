@@ -1,8 +1,6 @@
 var _ = {};
 
-(function() {
-
-  
+(function() {  
   // Return the results of applying an iterator to each element.
   _.map = function(collection, iterator) {
     var newArr=[]
