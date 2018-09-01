@@ -32,25 +32,16 @@
 // Age is represented by a number which can be any positive integer up to 199.
 
 var isAgeDiverse = function(s) {
-  var ageArr = []
+  var ageArr = [];
   for(var i=0;i<s.length;i++){
     if(s[i].age<100){
-    ageArr.push(Math.floor(s[i].age/10));
-    //console.log(s[i]['firstName'],s[i].age)
+      ageArr.push(Math.floor(s[i].age/10));
     } else if(s[i].age>=100||ageArr[0]!==0) {
-      //console.log(s[i]['firstName'],s[i].age,'???')
       ageArr.unshift(Math.floor(0));
     }
   }
   ageArr.sort()
-  //console.log(ageArr)
-  var result = false
-  for(i=0;i<ageArr.length;i++){
-    if(ageArr[i]===i){
-      result = true
-    } else {
-    result = false
-    }
-  }
-  return result;
+  return ageArr.every(function(value,index){
+    return value===index
+  })
 };
