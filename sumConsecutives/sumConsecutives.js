@@ -18,10 +18,8 @@ var sumConsecutives = function(s) {
   var sum=0;
 
   for(var i=0;i<s.length;i++){
-    if(s[i]===s[i+1]){
-      sum+=s[i]
-    } else {
-      sum+=s[i]
+    sum+=s[i]
+    if(s[i]!==s[i+1]){
       resultArr.push(sum);
       sum=0;
     }  
