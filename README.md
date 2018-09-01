@@ -9,12 +9,12 @@
 
 ## Grading Outline
 
-- [ ] underbar-map
-- [ ] underbar-uniq
-- [ ] underbar-memoize
-- [ ] underbar-extend
-- [ ] sumConsecutives
-- [ ] isAgeDiverse
+- [Complete] underbar-map
+- [Complete] underbar-uniq
+- [Complete] underbar-memoize
+- [Complete] underbar-extend
+- [Complete] sumConsecutives
+- [Complete] isAgeDiverse
 
 ## Self-Grading Process
 
