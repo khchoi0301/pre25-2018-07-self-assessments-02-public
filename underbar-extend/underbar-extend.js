@@ -17,7 +17,7 @@ var _ = {};
 (function() {
   _.extend = function(obj) {
       var arr=Array.prototype.slice(arguments)
-      var newObj={}
+      var newObj=arguments[0]
       //console.log(arr,obj,arguments)
 
       for(var i=0; i<arguments.length;i++){
